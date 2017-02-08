@@ -4,6 +4,7 @@
   "description": "",
   "main": "ng2-test-library.js",
   "scripts": {
+    "install":"cd lib && npm install",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
