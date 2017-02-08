@@ -1,0 +1,131 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/carlos/.nvm/versions/node/v7.5.0/bin/node',
+1 verbose cli   '/Users/carlos/.nvm/versions/node/v7.5.0/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'https://github.com/caroso1222/ng2-test-library.git' ]
+2 info using npm@4.1.2
+3 info using node@v7.5.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData https://github.com/caroso1222/ng2-test-library.git
+8 silly fetchOtherPackageData https://github.com/caroso1222/ng2-test-library.git
+9 silly cache add args [ 'https://github.com/caroso1222/ng2-test-library.git', null ]
+10 verbose cache add spec https://github.com/caroso1222/ng2-test-library.git
+11 silly cache add parsed spec Result {
+11 silly cache add   raw: 'https://github.com/caroso1222/ng2-test-library.git',
+11 silly cache add   scope: null,
+11 silly cache add   escapedName: null,
+11 silly cache add   name: null,
+11 silly cache add   rawSpec: 'https://github.com/caroso1222/ng2-test-library.git',
+11 silly cache add   spec: 'git+https://github.com/caroso1222/ng2-test-library.git',
+11 silly cache add   type: 'hosted',
+11 silly cache add   hosted:
+11 silly cache add    { type: 'github',
+11 silly cache add      ssh: 'git@github.com:caroso1222/ng2-test-library.git',
+11 silly cache add      sshUrl: 'git+ssh://git@github.com/caroso1222/ng2-test-library.git',
+11 silly cache add      httpsUrl: 'git+https://github.com/caroso1222/ng2-test-library.git',
+11 silly cache add      gitUrl: 'git://github.com/caroso1222/ng2-test-library.git',
+11 silly cache add      shortcut: 'github:caroso1222/ng2-test-library',
+11 silly cache add      directUrl: 'https://raw.githubusercontent.com/caroso1222/ng2-test-library/master/package.json' } }
+12 verbose addRemoteGit caching https://github.com/caroso1222/ng2-test-library.git
+13 verbose addRemoteGit git+https://github.com/caroso1222/ng2-test-library.git is a repository hosted by github
+14 silly tryClone cloning git+https://github.com/caroso1222/ng2-test-library.git via git+https://github.com/caroso1222/ng2-test-library.git
+15 verbose tryClone git-https-github-com-caroso1222-ng2-test-library-git-3b38f685 not in flight; caching
+16 verbose correctMkdir /Users/carlos/.npm/_git-remotes correctMkdir not in flight; initializing
+17 verbose makeDirectory /Users/carlos/.npm/_git-remotes creation not in flight; initializing
+18 silly makeDirectory /Users/carlos/.npm/_git-remotes uid: 501 gid: 20
+19 info git [ 'clone',
+19 info git   '--template=/Users/carlos/.npm/_git-remotes/_templates',
+19 info git   '--mirror',
+19 info git   'https://github.com/caroso1222/ng2-test-library.git',
+19 info git   '/Users/carlos/.npm/_git-remotes/git-https-github-com-caroso1222-ng2-test-library-git-3b38f685' ]
+20 verbose mirrorRemote git+https://github.com/caroso1222/ng2-test-library.git git clone https://github.com/caroso1222/ng2-test-library.git
+21 verbose correctMkdir /Users/carlos/.npm/_git-remotes correctMkdir not in flight; initializing
+22 verbose setPermissions git+https://github.com/caroso1222/ng2-test-library.git set permissions on /Users/carlos/.npm/_git-remotes/git-https-github-com-caroso1222-ng2-test-library-git-3b38f685
+23 verbose resolveHead git+https://github.com/caroso1222/ng2-test-library.git original treeish: master
+24 info git [ 'rev-list', '-n1', 'master' ]
+25 silly resolveHead git+https://github.com/caroso1222/ng2-test-library.git resolved treeish: 61d3482963274cf2e3aa1fda861df26a25cd1a1c
+26 verbose resolveHead git+https://github.com/caroso1222/ng2-test-library.git resolved Git URL: git+https://github.com/caroso1222/ng2-test-library.git#61d3482963274cf2e3aa1fda861df26a25cd1a1c
+27 silly resolveHead Git working directory: /var/folders/dq/qsjgx47x7_b9prc1st1j59w80000gn/T/npm-83211-f1e49784/git-cache-c2344c58/61d3482963274cf2e3aa1fda861df26a25cd1a1c
+28 info git [ 'clone',
+28 info git   '/Users/carlos/.npm/_git-remotes/git-https-github-com-caroso1222-ng2-test-library-git-3b38f685',
+28 info git   '/var/folders/dq/qsjgx47x7_b9prc1st1j59w80000gn/T/npm-83211-f1e49784/git-cache-c2344c58/61d3482963274cf2e3aa1fda861df26a25cd1a1c' ]
+29 verbose cloneResolved git+https://github.com/caroso1222/ng2-test-library.git clone Cloning into '/var/folders/dq/qsjgx47x7_b9prc1st1j59w80000gn/T/npm-83211-f1e49784/git-cache-c2344c58/61d3482963274cf2e3aa1fda861df26a25cd1a1c'...
+29 verbose cloneResolved done.
+30 info git [ 'checkout', '61d3482963274cf2e3aa1fda861df26a25cd1a1c' ]
+31 verbose checkoutTreeish git+https://github.com/caroso1222/ng2-test-library.git checkout Note: checking out '61d3482963274cf2e3aa1fda861df26a25cd1a1c'.
+31 verbose checkoutTreeish
+31 verbose checkoutTreeish You are in 'detached HEAD' state. You can look around, make experimental
+31 verbose checkoutTreeish changes and commit them, and you can discard any commits you make in this
+31 verbose checkoutTreeish state without impacting any branches by performing another checkout.
+31 verbose checkoutTreeish
+31 verbose checkoutTreeish If you want to create a new branch to retain commits you create, you may
+31 verbose checkoutTreeish do so (now or later) by using -b with the checkout command again. Example:
+31 verbose checkoutTreeish
+31 verbose checkoutTreeish   git checkout -b <new-branch-name>
+31 verbose checkoutTreeish
+31 verbose checkoutTreeish HEAD is now at 61d3482... add
+32 info git [ 'submodule', '-q', 'update', '--init', '--recursive' ]
+33 verbose updateSubmodules git+https://github.com/caroso1222/ng2-test-library.git submodule update
+34 verbose addLocalDirectory /Users/carlos/.npm/ng2-test-library/1.0.0/package.tgz not in flight; packing
+35 verbose correctMkdir /Users/carlos/.npm correctMkdir not in flight; initializing
+36 verbose tar pack [ '/Users/carlos/.npm/ng2-test-library/1.0.0/package.tgz',
+36 verbose tar pack   '/var/folders/dq/qsjgx47x7_b9prc1st1j59w80000gn/T/npm-83211-f1e49784/git-cache-c2344c58/61d3482963274cf2e3aa1fda861df26a25cd1a1c' ]
+37 verbose tarball /Users/carlos/.npm/ng2-test-library/1.0.0/package.tgz
+38 verbose folder /var/folders/dq/qsjgx47x7_b9prc1st1j59w80000gn/T/npm-83211-f1e49784/git-cache-c2344c58/61d3482963274cf2e3aa1fda861df26a25cd1a1c
+39 verbose addLocalTarball adding from inside cache /Users/carlos/.npm/ng2-test-library/1.0.0/package.tgz
+40 verbose correctMkdir /Users/carlos/.npm correctMkdir not in flight; initializing
+41 verbose addRemoteGit data._from: git+https://github.com/caroso1222/ng2-test-library.git
+42 verbose addRemoteGit data._resolved: git+https://github.com/caroso1222/ng2-test-library.git#61d3482963274cf2e3aa1fda861df26a25cd1a1c
+43 silly cache afterAdd ng2-test-library@1.0.0
+44 verbose afterAdd /Users/carlos/.npm/ng2-test-library/1.0.0/package/package.json not in flight; writing
+45 verbose correctMkdir /Users/carlos/.npm correctMkdir not in flight; initializing
+46 verbose afterAdd /Users/carlos/.npm/ng2-test-library/1.0.0/package/package.json written
+47 silly install normalizeTree
+48 silly loadCurrentTree Finishing
+49 silly loadIdealTree Starting
+50 silly install loadIdealTree
+51 silly cloneCurrentTree Starting
+52 silly install cloneCurrentTreeToIdealTree
+53 silly cloneCurrentTree Finishing
+54 silly loadShrinkwrap Starting
+55 silly install loadShrinkwrap
+56 silly loadShrinkwrap Finishing
+57 silly loadAllDepsIntoIdealTree Starting
+58 silly install loadAllDepsIntoIdealTree
+59 silly rollbackFailedOptional Starting
+60 silly rollbackFailedOptional Finishing
+61 silly runTopLevelLifecycles Finishing
+62 silly install printInstalled
+63 verbose stack Error: Refusing to install package with name "ng2-test-library" under a package
+63 verbose stack also called "ng2-test-library". Did you name your project the same
+63 verbose stack as the dependency you're installing?
+63 verbose stack
+63 verbose stack For more information, see:
+63 verbose stack     <https://docs.npmjs.com/cli/install#limitations-of-npms-install-algorithm>
+63 verbose stack     at checkSelf (/Users/carlos/.nvm/versions/node/v7.5.0/lib/node_modules/npm/lib/install/validate-args.js:53:14)
+63 verbose stack     at Array.<anonymous> (/Users/carlos/.nvm/versions/node/v7.5.0/lib/node_modules/npm/node_modules/slide/lib/bind-actor.js:15:8)
+63 verbose stack     at LOOP (/Users/carlos/.nvm/versions/node/v7.5.0/lib/node_modules/npm/node_modules/slide/lib/chain.js:15:14)
+63 verbose stack     at chain (/Users/carlos/.nvm/versions/node/v7.5.0/lib/node_modules/npm/node_modules/slide/lib/chain.js:20:5)
+63 verbose stack     at /Users/carlos/.nvm/versions/node/v7.5.0/lib/node_modules/npm/lib/install/validate-args.js:16:5
+63 verbose stack     at /Users/carlos/.nvm/versions/node/v7.5.0/lib/node_modules/npm/node_modules/slide/lib/async-map.js:52:35
+63 verbose stack     at Array.forEach (native)
+63 verbose stack     at /Users/carlos/.nvm/versions/node/v7.5.0/lib/node_modules/npm/node_modules/slide/lib/async-map.js:52:11
+63 verbose stack     at Array.forEach (native)
+63 verbose stack     at asyncMap (/Users/carlos/.nvm/versions/node/v7.5.0/lib/node_modules/npm/node_modules/slide/lib/async-map.js:51:8)
+64 verbose cwd /Users/carlos/Desktop/test-remove
+65 error Darwin 15.6.0
+66 error argv "/Users/carlos/.nvm/versions/node/v7.5.0/bin/node" "/Users/carlos/.nvm/versions/node/v7.5.0/bin/npm" "install" "https://github.com/caroso1222/ng2-test-library.git"
+67 error node v7.5.0
+68 error npm  v4.1.2
+69 error code ENOSELF
+70 error Refusing to install package with name "ng2-test-library" under a package
+70 error also called "ng2-test-library". Did you name your project the same
+70 error as the dependency you're installing?
+70 error
+70 error For more information, see:
+70 error     <https://docs.npmjs.com/cli/install#limitations-of-npms-install-algorithm>
+71 error If you need help, you may report this error at:
+71 error     <https://github.com/npm/npm/issues>
+72 verbose exit [ 1, true ]

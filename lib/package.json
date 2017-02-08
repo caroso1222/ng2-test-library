@@ -1,0 +1,11 @@
+{
+  "name": "ng2-lib",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ng2-lib.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
