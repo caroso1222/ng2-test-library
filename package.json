@@ -1,0 +1,19 @@
+{
+  "name": "ng2-test-library",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ng2-test-library.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caroso1222/ng2-test-library.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caroso1222/ng2-test-library/issues"
+  },
+  "homepage": "https://github.com/caroso1222/ng2-test-library#readme"
+}
